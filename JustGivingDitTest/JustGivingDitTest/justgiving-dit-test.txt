@@ -1,0 +1,11 @@
+INSTRUCTIONS
+============
+
+Write one working test that, starting from this page (https://www.justgiving.com/4w350m3/donation/direct/charity/2050), 
+goes through the donation process and verifies that, after various steps, you end up on the page shown in the attached screenshot.
+
+Please do not make an actual donation, in other words don't make your test click on the "Donate now" button in the final step.
+
+We are interested in seeing your approach to writing well-structured, extensbile and maintainable UI tests.
+
+Timebox this to 2.5 hours.

@@ -1,0 +1,113 @@
+﻿VS filter: testpath:TestAssembly:UITest.Specs/Feature:SpecFlowFeature1/Scenario:Donate
+Discovering target: Default
+Discovering tests from assembly: C:\Users\PDShinde\Downloads\JustGivingDitTest\JustGivingDitTest\UITest.Specs\bin\Debug\UITest.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UITest.Specs/Default - 
+#1: Default - 
+#2: UITest.Specs - 
+#3: SpecFlowFeature1 - 
+#4: Donate - TestAssembly:UITest.Specs/Feature:SpecFlowFeature1/Scenario:Donate
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UITest.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\PDShinde\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (34.2s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlSarah Stopford
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (4.6s)
+Thread#0:B:When I choose to donate "30" pounds
+Thread#0:T:Clicked on Donate
+Thread#0:T:amount :£10
+Thread#0:T:amount :£20
+Thread#0:T:amount :£30
+Thread#0:T:Clicked on chosen amount :30
+Thread#0:T:done: DonateSteps.WhenIChooseToDonatePounds("30") (20.4s)
+Thread#0:B:Then amount displayed should be "30" on following page
+Thread#0:T: DOnation amount is displayed correctly
+Thread#0:T:done: DonateSteps.ThenAmountDisplayedShouldBeOnFollowingPage("30") (0.2s)
+Thread#0:B:Given I enter my email address and password "JGtest01"
+Thread#0:T:Email entered :5CYOe4DN@example.com
+Thread#0:T:Password entered :JGtest01
+Thread#0:T:error: Exception has been thrown by the target of an invocation.
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 65.6224778 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (29.2s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlSarah Stopford
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (4.5s)
+Thread#0:B:When I choose to donate "30" pounds
+Thread#0:T:Clicked on Donate
+Thread#0:T:amount :£10
+Thread#0:T:amount :£20
+Thread#0:T:amount :£30
+Thread#0:T:Clicked on chosen amount :30
+Thread#0:T:done: DonateSteps.WhenIChooseToDonatePounds("30") (20.3s)
+Thread#0:B:Then amount displayed should be "30" on following page
+Thread#0:T: DOnation amount is displayed correctly
+Thread#0:T:done: DonateSteps.ThenAmountDisplayedShouldBeOnFollowingPage("30") (0.2s)
+Thread#0:B:Given I enter my email address and password "JGtest01"
+Thread#0:T:error: Exception has been thrown by the target of an invocation.
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 54.4062748 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (25.4s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlSarah Stopford
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (4.5s)
+Thread#0:B:When I choose to donate "30" pounds
+Thread#0:T:Clicked on Donate
+Thread#0:T:amount :£10
+Thread#0:T:amount :£20
+Thread#0:T:amount :£30
+Thread#0:T:Clicked on chosen amount :30
+Thread#0:T:done: DonateSteps.WhenIChooseToDonatePounds("30") (20.3s)
+Thread#0:B:Then amount displayed should be "30" on following page
+Thread#0:T: DOnation amount is displayed correctly
+Thread#0:T:done: DonateSteps.ThenAmountDisplayedShouldBeOnFollowingPage("30") (0.5s)
+Thread#0:B:Given I enter my email address and password "JGtest01"
+Thread#0:T:Email entered :fEjgo38A@example.com
+Thread#0:T:Password entered :JGtest01
+Thread#0:T:error: Exception has been thrown by the target of an invocation.
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 55.0060511 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

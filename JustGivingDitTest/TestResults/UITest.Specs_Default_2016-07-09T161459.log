@@ -1,0 +1,79 @@
+﻿VS filter: testpath:TestAssembly:UITest.Specs/Feature:SpecFlowFeature1/Scenario:Donate
+Discovering target: Default
+Discovering tests from assembly: C:\Users\PDShinde\Downloads\JustGivingDitTest\JustGivingDitTest\UITest.Specs\bin\Debug\UITest.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UITest.Specs/Default - 
+#1: Default - 
+#2: UITest.Specs - 
+#3: SpecFlowFeature1 - 
+#4: Donate - TestAssembly:UITest.Specs/Feature:SpecFlowFeature1/Scenario:Donate
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UITest.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\PDShinde\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (26.3s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlHelen Linehan
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (4.2s)
+Thread#0:B:And I click No Thanks on pop up
+Thread#0:T:error: Could not find element by: By.XPath: //*[@id='container']/div/button[2]
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 35.638429 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (24.5s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlHelen Linehan
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (4.0s)
+Thread#0:B:And I click No Thanks on pop up
+Thread#0:T:error: Could not find element by: By.XPath: //*[@id='container']/div/button[2]
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 31.4377697 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I am Justgiving homepage
+Thread#0:T:done: DonateSteps.GivenIAmJustgivingHomepage() (32.1s)
+Thread#0:B:And I look for first card
+Thread#0:T:innerHtmlHelen Linehan
+Thread#0:T:done: DonateSteps.GivenILookForFirstCard() (5.3s)
+Thread#0:B:And I click No Thanks on pop up
+Thread#0:T:error: Could not find element by: By.XPath: //*[@id='container']/div/button[2]
+Thread#0:B:Then I close
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 40.6884958 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
